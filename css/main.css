@@ -39,6 +39,11 @@
 	padding: 0;
 	margin: 0;
 }
+
+.fondo-blanco{
+    background-color: white;
+}
+
 body{
     background-color: white;
     font-family: 'Raleway', sans-serif;
@@ -852,7 +857,7 @@ ul.nav > li > a.active{
    Footer Section
    ========================================================================== */
 .footer-section{
-    background-color: #111;
+    background-color: white;
     display: block;
     color: #fff;
     text-align: center;
@@ -864,6 +869,25 @@ ul.nav > li > a.active{
     margin: 0;
 }
 
+.linea-naranja{
+    background-color: #EBA433;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.fondo-gris{
+    background-color: #A5A5A5;
+}
+
+.qr{
+    margin-top: -100px;
+}
+
+.texto-qr{
+    margin-top: -20px;
+}
 /* ==========================================================================
    Scroll To Top
    ========================================================================== */
