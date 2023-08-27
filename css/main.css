@@ -389,9 +389,10 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
 .navbar-fixed-top.header-section{
     background-color: #111;
     box-shadow: 0px 16px 28px 0px rgba(0, 0, 0, 0.05);
-    height: 70px;
+    height: 80px;
     border-bottom: 0;
     padding: 0;
+
 }
 .mainmenu .download-btn{
     background-color: #ef5560;
@@ -706,7 +707,6 @@ ul.nav > li > a.active{
    Service Section
    ========================================================================== */
 .service-section{
-    background-image: url(../img/services-background.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -852,6 +852,14 @@ ul.nav > li > a.active{
     right: 0;
     top: 0;
     z-index: -1;
+}
+
+.naranja {
+    background-color: orange !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 /* ==========================================================================
    Footer Section

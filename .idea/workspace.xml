@@ -5,9 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9ba1901-4fc4-4e1a-9b26-feae5ceb0140" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/css/slick-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/slider/imagen1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/slider/imagen2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/jquery.nivo.slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/slick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/footer/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/header/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/slider-pack/CEMheaders-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/slider/slider-2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,29 +52,39 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2UEG7YOYhhDOGA23cGGMn0a5ktq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/sergi/Proyectos/centro-capacitacion-laboral/img/header",
+    "last_opened_file_path": "C:/Users/sergi/Proyectos/centro-capacitacion-laboral/css",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sergi\Proyectos\centro-capacitacion-laboral\css" />
+      <recent name="C:\Users\sergi\Proyectos\centro-capacitacion-laboral\src\js" />
       <recent name="C:\Users\sergi\Proyectos\centro-capacitacion-laboral\img\header" />
       <recent name="C:\Users\sergi\Proyectos\centro-capacitacion-laboral\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sergi\Proyectos\centro-capacitacion-laboral\" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -77,11 +99,15 @@
       <workItem from="1692644849593" duration="954000" />
       <workItem from="1692971899524" duration="9960000" />
       <workItem from="1693015116801" duration="8000" />
-      <workItem from="1693050515945" duration="3170000" />
+      <workItem from="1693050515945" duration="4575000" />
+      <workItem from="1693135727165" duration="4569000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
