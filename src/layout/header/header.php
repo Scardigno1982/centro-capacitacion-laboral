@@ -1,6 +1,6 @@
 <header id="header" class="header-section">
     <nav class="navbar">
-        <div class="container-fluid"> <!-- container-fluid para asegurar que ocupe toda la pantalla -->
+        <div class="container-fluid "> <!-- container-fluid para asegurar que ocupe toda la pantalla -->
             <div class="col-lg-6">
                 <a href="#" class="navbar-brand"><img src="img/header/logo.png" alt="Centro de capacitacion laboral" HEIGHT="60"></a>
             </div>
@@ -13,7 +13,7 @@
                 <!-- Tu navegación -->
                 <nav class="navbar navbar-expand-lg navbar-light menu">
                     <!-- Botón Hamburguesa -->
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 

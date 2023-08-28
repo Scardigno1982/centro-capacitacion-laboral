@@ -122,13 +122,16 @@ require('src/layout/header/header.php');
         </div>
     </div>
 
-    <div class="row justify-content-center align-items-center">
-        <div class="col text-center"><img src="img/partner/arcelor-mittal.png" class="img-fluid"></div>
-        <div class="col text-center"><img src="img/partner/grupo-maresa.png" class="img-fluid"></div>
-        <div class="col text-center"><img src="img/partner/loma-negra.png" class="img-fluid"></div>
-        <div class="col text-center"><img src="img/partner/techint.png" class="img-fluid"></div>
-        <div class="col text-center"><img src="img/partner/ternium.png" class="img-fluid"></div>
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <div class="col text-center"><img src="img/partner/arcelor-mittal.png" class="img-fluid"></div>
+            <div class="col text-center"><img src="img/partner/grupo-maresa.png" class="img-fluid"></div>
+            <div class="col text-center"><img src="img/partner/loma-negra.png" class="img-fluid"></div>
+            <div class="col text-center"><img src="img/partner/techint.png" class="img-fluid"></div>
+            <div class="col text-center"><img src="img/partner/ternium.png" class="img-fluid"></div>
+        </div>
     </div>
+
 
 </section><!-- seccion de partner-->
 
