@@ -2,7 +2,7 @@
     <nav class="navbar">
         <div class="container-fluid "> <!-- container-fluid para asegurar que ocupe toda la pantalla -->
             <div class="col-lg-6">
-                <a href="#" class="navbar-brand"><img src="img/header/logo.png" alt="Centro de capacitacion laboral" HEIGHT="60"></a>
+                <a href="/" class="navbar-brand"><img src="img/header/logo.png" alt="Centro de capacitacion laboral" HEIGHT="60"></a>
             </div>
             <div class="col-lg-6 mx-auto text-right">
                 <p class="text-white">Sistema de inscripciones a cursos &nbsp;&nbsp;<button type="button" class="btn btn-danger"><i class="fa-solid fa-lock"></i>
@@ -21,16 +21,16 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item active">
-                                <a data-scroll class="nav-link" href="#lafundacion">LA FUNDACIÓN<span class="sr-only">(current)</span></a>
+                                <a data-scroll class="nav-link" href="fundacion.php">LA FUNDACIÓN<span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a data-scroll class="nav-link" href="#servicios">SERVICIOS</a>
+                                <a data-scroll class="nav-link" href="servicios.php">SERVICIOS</a>
                             </li>
                             <li class="nav-item">
-                                <a data-scroll class="nav-link" href="#capacitaciones">CAPACITACIONES</a>
+                                <a data-scroll class="nav-link" href="capacitaciones.php">CAPACITACIONES</a>
                             </li>
                             <li class="nav-item">
-                                <a data-scroll class="nav-link" href="#contacto">CONTACTO</a>
+                                <a data-scroll class="nav-link" href="contacto.php">CONTACTO</a>
                             </li>
                         </ul>
                     </div>
