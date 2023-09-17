@@ -3,9 +3,7 @@
 */
 
 @media (max-width: 1024px) {
-    .hero-section{
-        height: 650px;
-    }
+
 }
 
 /* ---- Start of max-width 992px CSS ---- */
@@ -20,7 +18,7 @@
         padding-top: 0;
     }
     .hero-section{
-        height: 570px;
+        /*height: 570px;*/
     }
     .about-content {
         padding: 60px 0;
@@ -46,7 +44,7 @@
 
 /* ---- Start of min-width 480px and max-width 768px CSS ---- */
 @media all and (min-width: 480px) and (max-width: 768px) {
-	
+
 }
 /* ---- End of min-width 480px and max-width 768px CSS ---- */
 
@@ -97,7 +95,7 @@
         padding: 45px 0;
     }
     .cta-section .cta-content h2{ font-size: 20px; }
-    
+
 }
 /* ---- End of max-width 767px CSS ---- */
 
@@ -111,13 +109,13 @@
 
 /* ---- Start of max-width 420px CSS ---- */
 @media all and (max-width: 420px) {
-    
+
 }
 /* ---- End of max-width 420px CSS ---- */
 
 
 /* ---- Start of max-width 380px CSS ---- */
 @media all and (max-width: 380px) {
-	
+
 }
 /* ---- End of max-width 380px CSS ---- */

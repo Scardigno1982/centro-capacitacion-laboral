@@ -5,9 +5,12 @@
                 <a href="/" class="navbar-brand"><img src="img/header/logo.png" alt="Centro de capacitacion laboral" HEIGHT="60"></a>
             </div>
             <div class="col-lg-6 mx-auto text-right">
-                <p class="text-white">Sistema de inscripciones a cursos &nbsp;&nbsp;<button type="button" class="btn btn-danger"><i class="fa-solid fa-lock"></i>
-                        &nbsp;&nbsp;ACCESO</button>
-                </p>
+                <div class="sistema-cursos">
+                    <p class="text-white">Sistema de inscripciones a cursos &nbsp;&nbsp;<button type="button" class="btn btn-danger"><i class="fa-solid fa-lock"></i>
+                            &nbsp;&nbsp;ACCESO</button>
+                    </p>
+                </div>
+
             </div>
             <div class="col-12">
                 <!-- Tu navegación -->

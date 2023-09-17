@@ -344,6 +344,23 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
    Header Section
    ========================================================================== */
 
+.sistema-cursos{
+    margin-top: 30px !important;
+    margin-right: 30px;
+}
+
+.hero-content{
+    /*border: 2px solid white;*/
+    /*margin-top: 140px;*/
+    /*padding-top: 250px;*/
+    /*padding-bottom: 390px;*/
+    /*margin-left: -60px;*/
+    /*margin-right: -60px;*/
+}
+
+
+
+
 .custom-toggler.navbar-toggler {
     border-color: white;
     color: white;
@@ -589,7 +606,7 @@ ul.nav > li > a.active{
    Hero Section
    ========================================================================== */
 .hero-section{
-    background-image: url(../img/slider/slider.png);
+    background-image: url(../img/slider/CCL-HEADERS-HOME.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -599,7 +616,7 @@ ul.nav > li > a.active{
 }
 
 .hero-content-servicio{
-    background-image: url(../img/slider/slider-servicios.png);
+    background-image: url(../img/slider/CCL-HEADERS-SERVICIOS.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -609,7 +626,7 @@ ul.nav > li > a.active{
 }
 
 .hero-content-capacitacion{
-    background-image: url(../img/slider/slider-capacitacion.png);
+    background-image: url(../img/slider/CCL-HEADERS-CAPACITACIONES.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -629,7 +646,7 @@ ul.nav > li > a.active{
 }
 
 .hero-content-contacto{
-    background-image: url(../img/slider/slider-contacto.png);
+    background-image: url(../img/slider/CCL-HEADERS-CONTACTO.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;

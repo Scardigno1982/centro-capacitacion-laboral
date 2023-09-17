@@ -99,87 +99,97 @@ require('src/layout/header/header.php');
     <div class="container">
         <div class="row">
             <div class="col-3">
-                <img src="img/iconos-servicios/worker.png" class="img-fluid">
+                <img src="img/iconos-servicios/worker.png" class="img-fluid" width="100">
             </div>
-
             <div class="col-9">
                 <h2 class="text-black">Asesoramiento a empresas en seguridad y salud ocupacional en el trabajo</h2>
+                <div id="moreText1" class="collapse">
+                    ...
+                </div>
+                <a class="btn btn-link" data-bs-toggle="collapse" href="#moreText1" role="button" aria-expanded="false" aria-controls="moreText1">Leer más</a>
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-3">
+                    <img src="img/iconos-servicios/higiene-laboral.png" class="img-fluid" width="100">
+                </div>
+                <div class="col-9">
+                    <h2 class="text-black">Higiene laboral</h2>
+                    <div id="moreText2" class="collapse">...</div>
+                    <a class="btn btn-link" data-bs-toggle="collapse" href="#moreText2" role="button" aria-expanded="false" aria-controls="moreText2">Leer más</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-3">
+                    <img src="img/iconos-servicios/aparato-sometido.png" class="img-fluid" width="100">
+                </div>
+                <div class="col-9">
+                    <h2 class="text-black">Aparatos sometidos a presión</h2>
+                    <div id="moreText3" class="collapse">...</div>
+                    <a class="btn btn-link" data-bs-toggle="collapse" href="#moreText3" role="button" aria-expanded="false" aria-controls="moreText3">Leer más</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-3">
+                    <img src="img/iconos-servicios/manual.png" class="img-fluid" width="100">
+                </div>
+                <div class="col-9">
+                    <h2 class="text-black">Confección de Manual de Seguridad y salud ocupacional</h2>
+                    <div id="moreText4" class="collapse">...</div>
+                    <a class="btn btn-link" data-bs-toggle="collapse" href="#moreText4" role="button" aria-expanded="false" aria-controls="moreText4">Leer más</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-3">
+                    <img src="img/iconos-servicios/seguridad.png" class="img-fluid" width="100">
+                </div>
+                <div class="col-9">
+                    <h2 class="text-black">Programas de seguridad e higiene</h2>
+                    <div id="moreText5" class="collapse">...</div>
+                    <a class="btn btn-link" data-bs-toggle="collapse" href="#moreText5" role="button" aria-expanded="false" aria-controls="moreText5">Leer más</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-3">
+                    <img src="img/iconos-servicios/matafuego.png" class="img-fluid" width="100">
+                </div>
+                <div class="col-9">
+                    <h2 class="text-black">Prácticas con matafuegos</h2>
+                    <div id="moreText6" class="collapse">...</div>
+                    <a class="btn btn-link" data-bs-toggle="collapse" href="#moreText6" role="button" aria-expanded="false" aria-controls="moreText6">Leer más</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-3">
+                    <img src="img/iconos-servicios/manual2.png" class="img-fluid" width="100" height="30">
+                </div>
+                <div class="col-9">
+                    <h2 class="text-black">Confección de Matrices Iper</h2>
+                    <div id="moreText7" class="collapse">...</div>
+                    <a class="btn btn-link" data-bs-toggle="collapse" href="#moreText7" role="button" aria-expanded="false" aria-controls="moreText7">Leer más</a>
+                </div>
             </div>
         </div>
     </div>
+</section>
 
-    <div class="container mt-5">
-        <div class="row">
-            <div class="col-3">
-                <img src="img/iconos-servicios/higiene-laboral.png" class="img-fluid">
-            </div>
-
-            <div class="col-9">
-                <h2 class="text-black">Higiene laboral</h2>
-            </div>
-        </div>
-    </div>
-
-    <div class="container mt-5">
-        <div class="row">
-            <div class="col-3">
-                <img src="img/iconos-servicios/aparato-sometido.png" class="img-fluid">
-            </div>
-
-            <div class="col-9">
-                <h2 class="text-black">Aparatos sometidos a presión</h2>
-            </div>
-        </div>
-    </div>
-
-    <div class="container mt-5">
-        <div class="row">
-            <div class="col-3">
-                <img src="img/iconos-servicios/manual.png" class="img-fluid">
-            </div>
-
-            <div class="col-9">
-                <h2 class="text-black">Confección de Manual de Seguridad y salud ocupacional</h2>
-            </div>
-        </div>
-    </div>
-
-    <div class="container mt-5">
-        <div class="row">
-            <div class="col-3">
-                <img src="img/iconos-servicios/seguridad.png" class="img-fluid">
-            </div>
-
-            <div class="col-9">
-                <h2 class="text-black">Programas de seguridad e higiene</h2>
-            </div>
-        </div>
-    </div>
-
-    <div class="container mt-5">
-        <div class="row">
-            <div class="col-3">
-                <img src="img/iconos-servicios/matafuego.png" class="img-fluid">
-            </div>
-
-            <div class="col-9">
-                <h2 class="text-black">Prácticas con matafuegos</h2>
-            </div>
-        </div>
-    </div>
-
-    <div class="container mt-5">
-        <div class="row">
-            <div class="col-3">
-                <img src="img/iconos-servicios/manual2.png" class="img-fluid">
-            </div>
-
-            <div class="col-9">
-                <h2 class="text-black">Confección de Matrices Iper</h2>
-            </div>
-        </div>
-    </div>
-</section><!-- service-section -->
 
 
 

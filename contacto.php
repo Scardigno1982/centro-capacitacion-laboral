@@ -88,6 +88,48 @@ require('src/layout/header/header.php');
 <div class="rectangulo"></div>
 
 
+<div class="container mt-5 mb-5">
+    <div class="row">
+        <div class="col-4">
+            <h1 style="color: #1d2124; font-size: 60px;">CCL</h1>
+            <h2 style="color: #1d2124; font-size: 20px;">CENTRO DE CAPACITACIÓN LABORAL</h2>
+            <p>Acceso Punta Argerich km 2,5 <br>
+                (Frente a Porteria 1 Ternium Argentina, Ramallo)<br>
+                Provincia de Buenos Aires<br>
+                Msj de WhatsApp: 3364 061737<br>
+                Cel: 3407 439789</p>
+        </div>
+
+        <div class="col-8"></div>
+    </div>
+</div>
+
+<div class="container">
+    <form action="mail.php" method="post">
+        <div class="form-group">
+            <label for="nombre">Nombre y Apellido:</label>
+            <input type="text" class="form-control" id="nombre" name="nombre" required>
+        </div>
+        <div class="form-group">
+            <label for="empresa">Nombre de la Empresa:</label>
+            <input type="text" class="form-control" id="empresa" name="empresa" required>
+        </div>
+        <div class="form-group">
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" class="form-control" id="telefono" name="telefono" required>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="celular">Celular:</label>
+                <input type="tel" class="form-control" id="celular" name="celular" required>
+            </div>
+            <div class="form-group col-md-6">
+                <button type="submit" class="btn btn-block" style="background-color: orange; color: black; margin-top: 30px">Enviar</button>
+            </div>
+        </div>
+    </form>
+</div>
+
 
 
 

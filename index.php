@@ -64,10 +64,9 @@ require('src/layout/header/header.php');
 ?>
 
 
-<section id="proposito" class="section hero-section d-flex align-items-center">
+<section id="proposito" class="hero-section d-flex align-items-center">
     <div class="container">
         <div class="hero-content text-center">
-            <h2>FORMAMOS EL FUTURO DE LA INDUSTRIA »</h2>
         </div>
     </div>
     <div class="down-arrow">
@@ -96,15 +95,22 @@ require('src/layout/header/header.php');
         <div class="col-12">
             <div class="row">
                 <div class="col-6">
-                    <div class="text-center">
-                        <img src="img/home/icono-1.png" class="img-fluid">
-                        <h2 class="text-black text-center">SERVICIOS</h2>
+                    <div class="text-center mt-5">
+                        <img src="img/home/icono-1.png"  width="150">
+                        <div class="mt-3">
+                            <h2 class="text-black text-center">SERVICIOS</h2>
+                        </div>
+
+
                     </div>
                 </div>
                 <div class="col-6">
-                    <div class="text-center">
-                        <img src="img/home/icono-2.png" class="img-fluid">
-                        <h2 class="text-black text-center">CAPACITACIONES</h2>
+                    <div class="text-center mt-5">
+                        <img src="img/home/icono-2.png" width="150">
+                        <div class="mt-3">
+                            <h2 class="text-black text-center">CAPACITACIONES</h2>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -123,12 +129,17 @@ require('src/layout/header/header.php');
     </div>
 
     <div class="container">
-        <div class="row justify-content-center align-items-center">
-            <div class="col text-center"><img src="img/partner/arcelor-mittal.png" class="img-fluid"></div>
-            <div class="col text-center"><img src="img/partner/grupo-maresa.png" class="img-fluid"></div>
-            <div class="col text-center"><img src="img/partner/loma-negra.png" class="img-fluid"></div>
-            <div class="col text-center"><img src="img/partner/techint.png" class="img-fluid"></div>
-            <div class="col text-center"><img src="img/partner/ternium.png" class="img-fluid"></div>
+        <div class="row justify-content-center align-items-center mt-5">
+            <div class="col text-center"><img src="img/partner/Acelor.png" class="img-fluid"></div>
+            <div class="col text-center"><img src="img/partner/DominionEnergy.png" class="img-fluid"></div>
+            <div class="col text-center"><img src="img/partner/GrupoMaresa.png" class="img-fluid"></div>
+            <div class="col text-center"><img src="img/partner/Loberaz.png" class="img-fluid"></div>
+            <div class="col text-center"><img src="img/partner/LomaNegra.png" class="img-fluid"></div>
+            <div class="col text-center"><img src="img/partner/Novasider.png" class="img-fluid"></div>
+            <div class="col text-center"><img src="img/partner/Protto.png" class="img-fluid"></div>
+            <div class="col text-center"><img src="img/partner/Techint.png" class="img-fluid"></div>
+            <div class="col text-center"><img src="img/partner/Tenaris.png" class="img-fluid"></div>
+            <div class="col text-center"><img src="img/partner/Ternium.png" class="img-fluid"></div>
         </div>
     </div>
 
@@ -145,7 +156,7 @@ require('src/layout/header/header.php');
     <div class="slider1" id="slider1">
         <div>
             <a data-bs-toggle="modal" data-bs-target="#exampleModal">
-                <img src="img/slider/imagen1.png" width="95%" style="text-align: center">
+                <img src="img/slider/imagen1.png" width="60%" style="text-align: center">
             </a>
         </div>
 

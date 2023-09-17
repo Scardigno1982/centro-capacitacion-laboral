@@ -90,23 +90,34 @@ require('src/layout/header/header.php');
 
 <section id="services" class="service-section padding">
     <div class="container-fluid">
-        <div class="col-12">
-            <h3 class="text-black text-center" style="font-size: 21px">Formación, enseñanza y análisis para promover la seguridad de las personas y el medio ambiente. Nuestros programas de formación están diseñados para fortalecer las habilidades clave de la industria, desde la producción eficiente hasta la seguridad en el trabajo </h3>
+        <div class="row justify-content-center"> <!-- Agregar la clase "row" y "justify-content-center" para centrar -->
+            <div class="col-8">
+                <h3 class="text-black text-center" style="font-size: 21px">Formación, enseñanza y análisis para promover la seguridad de las personas y el medio ambiente. Nuestros programas de formación están diseñados para fortalecer las habilidades clave de la industria, desde la producción eficiente hasta la seguridad en el trabajo</h3>
+            </div>
         </div>
     </div>
 </section><!-- service-section -->
-
 
 
 <section id="services" class="service-section padding">
     <div class="container">
         <div class="row">
             <div class="col-3">
-                <img src="img/iconos-capacitaciones/1.png" class="img-fluid">
-            </div>
+                <img src="img/iconos-capacitaciones/1.png" class="img-fluid" width="100" >
 
+            </div>
             <div class="col-9">
                 <h2 class="text-black">Temas de capacitaciones</h2>
+                <div id="moreText1" class="collapse">
+                    <p>
+                        » Certificaciones de Riesgo: ...
+                        » Talleres de sensibilización. ...
+                        » Higiene industrial. ...
+                        » Manejo de monta cargas /auto elevadores. ...
+                        » Planes de emergencias / Uso de matafuegos. ...
+                    </p>
+                </div>
+                <a class="btn btn-link" data-bs-toggle="collapse" href="#moreText1" role="button" aria-expanded="false" aria-controls="moreText1">Leer más</a>
             </div>
         </div>
     </div>
@@ -114,12 +125,12 @@ require('src/layout/header/header.php');
     <div class="container mt-5">
         <div class="row">
             <div class="col-3">
-                <img src="img/iconos-capacitaciones/2.png" class="img-fluid">
+                <img src="img/iconos-capacitaciones/2.png" class="img-fluid" width="100">
             </div>
-
             <div class="col-9">
-                <h2 class="text-black">Planes de capacitación
-                </h2>
+                <h2 class="text-black">Planes de capacitación</h2>
+                <div id="moreText2" class="collapse"> ... </div>
+                <a class="btn btn-link" data-bs-toggle="collapse" href="#moreText2" role="button" aria-expanded="false" aria-controls="moreText2">Leer más</a>
             </div>
         </div>
     </div>
@@ -127,11 +138,12 @@ require('src/layout/header/header.php');
     <div class="container mt-5">
         <div class="row">
             <div class="col-3">
-                <img src="img/iconos-capacitaciones/3.png" class="img-fluid">
+                <img src="img/iconos-capacitaciones/3.png" class="img-fluid" width="100">
             </div>
-
             <div class="col-9">
                 <h2 class="text-black">RCP</h2>
+                <div id="moreText3" class="collapse"> ... </div>
+                <a class="btn btn-link" data-bs-toggle="collapse" href="#moreText3" role="button" aria-expanded="false" aria-controls="moreText3">Leer más</a>
             </div>
         </div>
     </div>
@@ -139,11 +151,12 @@ require('src/layout/header/header.php');
     <div class="container mt-5">
         <div class="row">
             <div class="col-3">
-                <img src="img/iconos-capacitaciones/4.png" class="img-fluid">
+                <img src="img/iconos-capacitaciones/4.png" class="img-fluid" width="100">
             </div>
-
             <div class="col-9">
                 <h2 class="text-black">Inducción de seguridad corporativa</h2>
+                <div id="moreText4" class="collapse"> ... </div>
+                <a class="btn btn-link" data-bs-toggle="collapse" href="#moreText4" role="button" aria-expanded="false" aria-controls="moreText4">Leer más</a>
             </div>
         </div>
     </div>
@@ -151,17 +164,91 @@ require('src/layout/header/header.php');
     <div class="container mt-5">
         <div class="row">
             <div class="col-3">
-                <img src="img/iconos-capacitaciones/5.png" class="img-fluid">
+                <img src="img/iconos-capacitaciones/5.png" class="img-fluid" width="100">
             </div>
-
             <div class="col-9">
-                <h2 class="text-black">Prevención de Incendio Teoría.
-                </h2>
+                <h2 class="text-black">Prevención de Incendio Teoría.</h2>
+                <div id="moreText5" class="collapse"> ... </div>
+                <a class="btn btn-link" data-bs-toggle="collapse" href="#moreText5" role="button" aria-expanded="false" aria-controls="moreText5">Leer más</a>
             </div>
         </div>
     </div>
+</section>
 
-</section><!-- service-section -->
+
+
+<!--slider-footer-->
+<div class="naranja">
+    <div class="container mt-5 mb-5" id="fabrica" >
+        <div class="col-12">
+            <h1 class="text-center text-black">Mirá nuestras capacitaciones</h1>
+        </div>
+        <div class="slider1" id="slider1">
+            <div>
+                <a data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <img src="img/slider/imagen1.png" width="95%" style="text-align: center">
+                </a>
+            </div>
+
+            <div>
+                <a data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                    <img src="img/slider/imagen2.png" width="95%" style="text-align: center">
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container">
+        <!-- Modal conocé nuestro taller -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Conocé nustras aulas</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <a class="example-image-link" href="assets/images_cem/nosotros/ambulancia-pre-footer.webp" data-lightbox="example-2" data-title="Conocé nustras aulas">
+                            <img class="example-image img-fluid" src="assets/images_cem/nosotros/ambulancia-pre-footer.webp" alt="Conocé nustras aulas"/><br>
+                        </a>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <!--                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal  visitá nuestro showeroom -->
+        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Nuestros Equipos</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <a class="example-image-link" href="assets/images_cem/nosotros/ambulancia-pre-footer.webp" data-lightbox="example-2" data-title="Nuestros Equipos">
+                            <img class="example-image img-fluid" src="assets/images_cem/nosotros/ambulancia-pre-footer.webp" alt="Nuestros Equipos"/><br>
+                        </a>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <!--                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<!--slider-footer-->
+
 
 <?php
 require('src/layout/footer/footer.php');
