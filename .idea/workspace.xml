@@ -5,111 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9ba1901-4fc4-4e1a-9b26-feae5ceb0140" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/partner/Acelor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/partner/DominionEnergy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/partner/GrupoMaresa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/partner/Loberaz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/partner/LomaNegra.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/partner/Novasider.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/partner/Protto.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/partner/Tenaris.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/slider/CCL-HEADERS-CAPACITACIONES.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/slider/CCL-HEADERS-CONTACTO.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/slider/CCL-HEADERS-HOME.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/slider/CCL-HEADERS-SERVICIOS.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/InstalledVersions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/installed.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/platform_check.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/COMMITMENT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/SECURITY.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/VERSION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/get_oauth_token.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-af.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-ar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-az.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-ba.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-be.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-bg.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-ca.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-cs.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-da.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-de.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-el.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-eo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-es.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-et.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-fa.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-fi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-fo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-fr.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-gl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-he.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-hi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-hr.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-hu.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-hy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-id.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-it.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-ja.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-ka.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-ko.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-lt.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-lv.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-mg.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-mn.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-ms.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-nb.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-nl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-pl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-pt.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-pt_br.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-ro.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-ru.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-si.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-sk.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-sl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-sr.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-sr_latn.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-sv.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-tl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-tr.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-uk.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-vi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-zh.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-zh_cn.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/src/DSNConfigurator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/src/Exception.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/src/OAuth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/src/OAuthTokenProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/src/PHPMailer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/src/POP3.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/src/SMTP.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/slider-home-footer/CCL-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/slider-home-footer/CCL-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/slider-home-footer/CCL-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/slider-home-footer/CCL-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/slider-home-footer/CCL-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/slider-home-footer/CCL-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/slider-home-footer/CCL-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/slider-home-footer/CCL-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/slider-home-footer/CCL-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/slider-home-footer/CCL-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/slider/CCL-HEADERS-LA-INSTITUCION-nuevo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/capacitaciones.php" beforeDir="false" afterPath="$PROJECT_DIR$/capacitaciones.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contacto.php" beforeDir="false" afterPath="$PROJECT_DIR$/contacto.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/partner/arcelor-mittal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/partner/grupo-maresa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/partner/loma-negra.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/partner/techint.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/partner/ternium.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fundacion.php" beforeDir="false" afterPath="$PROJECT_DIR$/fundacion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/slider/CCL-HEADERS-CAPACITACIONES.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/slider/CCL-HEADERS-CAPACITACIONES.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/slider/CCL-HEADERS-CONTACTO.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/slider/CCL-HEADERS-CONTACTO.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/slider/CCL-HEADERS-HOME.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/slider/CCL-HEADERS-HOME.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/slider/CCL-HEADERS-SERVICIOS.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/slider/CCL-HEADERS-SERVICIOS.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/servicios.php" beforeDir="false" afterPath="$PROJECT_DIR$/servicios.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/header/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header/header.php" afterDir="false" />
@@ -125,7 +40,7 @@
     </option>
   </component>
   <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
-    <pharConfigPath>$PROJECT_DIR$/backup/composer.json</pharConfigPath>
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
@@ -138,6 +53,8 @@
     <include_path>
       <path value="$PROJECT_DIR$/backup/vendor/phpmailer/phpmailer" />
       <path value="$PROJECT_DIR$/backup/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/phpmailer/phpmailer" />
     </include_path>
   </component>
   <component name="ProjectColorInfo">{
@@ -159,7 +76,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/sergi/Proyectos/centro-capacitacion-laboral/img/partner",
+    "last_opened_file_path": "C:/Users/sergi/Proyectos/centro-capacitacion-laboral/img/slider",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -171,16 +88,23 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sergi\Proyectos\centro-capacitacion-laboral\img\slider" />
+      <recent name="C:\Users\sergi\Proyectos\centro-capacitacion-laboral\img\slider-home-footer" />
       <recent name="C:\Users\sergi\Proyectos\centro-capacitacion-laboral\img\partner" />
       <recent name="C:\Users\sergi\Proyectos\centro-capacitacion-laboral" />
       <recent name="C:\Users\sergi\Proyectos\centro-capacitacion-laboral\css" />
-      <recent name="C:\Users\sergi\Proyectos\centro-capacitacion-laboral\src\js" />
-      <recent name="C:\Users\sergi\Proyectos\centro-capacitacion-laboral\img\header" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sergi\Proyectos\centro-capacitacion-laboral\img" />
       <recent name="C:\Users\sergi\Proyectos\centro-capacitacion-laboral\img\slider" />
       <recent name="C:\Users\sergi\Proyectos\centro-capacitacion-laboral\" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ComposerRunConfigurationType" factoryName="Composer Script">
+      <option name="pathToComposerJson" value="$PROJECT_DIR$/backup/composer.json" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -206,6 +130,12 @@
       <workItem from="1694556986690" duration="2271000" />
       <workItem from="1694814766134" duration="641000" />
       <workItem from="1694948582643" duration="4148000" />
+      <workItem from="1695059696456" duration="3482000" />
+      <workItem from="1695078161715" duration="260000" />
+      <workItem from="1695124751805" duration="494000" />
+      <workItem from="1695126342098" duration="6208000" />
+      <workItem from="1695466959901" duration="345000" />
+      <workItem from="1695646416250" duration="685000" />
     </task>
     <servers />
   </component>

@@ -6,8 +6,8 @@
             </div>
             <div class="col-lg-6 mx-auto text-right">
                 <div class="sistema-cursos">
-                    <p class="text-white">Sistema de inscripciones a cursos &nbsp;&nbsp;<button type="button" class="btn btn-danger"><i class="fa-solid fa-lock"></i>
-                            &nbsp;&nbsp;ACCESO</button>
+                    <p class="text-white">Sistema de inscripciones a cursos &nbsp;&nbsp;<a href="http://www.cclweb.com.ar/Account/Login"><button type="button" class="btn btn-danger"><i class="fa-solid fa-lock"></i>
+                            &nbsp;&nbsp;ACCESO</button></a>
                     </p>
                 </div>
 

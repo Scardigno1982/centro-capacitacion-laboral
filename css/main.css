@@ -636,7 +636,7 @@ ul.nav > li > a.active{
 }
 
 .hero-content-fundacion{
-    background-image: url(../img/slider/slider-fundacion.png);
+    background-image: url(../img/slider/CCL-HEADERS-LA-INSTITUCION-nuevo.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -655,7 +655,11 @@ ul.nav > li > a.active{
     position: relative;
 }
 
-
+.fondo-letras-header{
+    background-color: rgba(0, 0, 0, 0.59);
+    padding: 20px;
+    text-align: center;
+}
 
 
 
@@ -1012,3 +1016,27 @@ ul.nav > li > a.active{
     background-color: #282828;
     color: #fff;
 }
+
+#arrow1{
+    color: #EBA433 !important;
+}
+#arrow2{
+    color: #EBA433 !important;
+}
+
+.nivo-prevNav{
+    display: none;
+    color: white !important;
+}
+
+.nivo-nextNav{
+    display: none;
+    color: white !important;
+}
+
+.nivo-controlNav{
+    display: none;
+    color: white !important;
+}
+
+

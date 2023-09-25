@@ -67,8 +67,8 @@ require('src/layout/header/header.php');
 
 <section id="proposito" class="section hero-content-servicio d-flex align-items-center">
     <div class="container">
-        <div class="hero-content text-center">
-            <h2>FORMAMOS EL FUTURO DE LA INDUSTRIA »</h2>
+        <div class="fondo-letras-header">
+            <h1 style="color: #EBA433; font-size: 50px; font-weight: normal">FORMAMOS EL FUTURO DE LA INDUSTRIA »</h1>
         </div>
     </div>
     <div class="down-arrow">
@@ -104,7 +104,12 @@ require('src/layout/header/header.php');
             <div class="col-9">
                 <h2 class="text-black">Asesoramiento a empresas en seguridad y salud ocupacional en el trabajo</h2>
                 <div id="moreText1" class="collapse">
-                    ...
+                    -Identificación de peligros y análisis de riesgos: nos especializamos en identificar los diferentes peligros de las distintas actividades, tareas, procesos que se realizan. Analizamos los potenciales riesgos que afectan a los trabajadores, tanto por accidentes como por enfermedades profesionales. Se presenta una matriz de riesgos con el fin de identificar las actividades más riesgosas y poder analizar propuestas de mejoras.
+                    -Realizamos investigaciones de eventos a través de la metodología de Árbol de Causas (Accidentes, Incidentes, desvíos de Riesgo Alto).
+                    -Apoyamos en el cumplimiento de los planes de mejoras que realizan los distintos organismos Gubernamentales, Nacionales, Provinciales, Municipales. ART (Aseguradora de Riesgos del Trabajo), visitas de la SRT (Superintendencia de Riesgos del Trabajo) y otros organismos municipales o provinciales.
+                    -Asesoramiento para la compra de Elementos de protección personal (EPP) y elementos de protección personal específica (EPPE), acordes a los requerimientos de las grandes empresas.
+                    -Asesoramiento de elementos de señalización viales, en talleres, oficinas, etc.
+
                 </div>
                 <a class="btn btn-link" data-bs-toggle="collapse" href="#moreText1" role="button" aria-expanded="false" aria-controls="moreText1">Leer más</a>
             </div>
@@ -117,7 +122,12 @@ require('src/layout/header/header.php');
                 </div>
                 <div class="col-9">
                     <h2 class="text-black">Higiene laboral</h2>
-                    <div id="moreText2" class="collapse">...</div>
+                    <div id="moreText2" class="collapse">-Muestreo, análisis y medición de ambiente laboral.
+                        Ruido, Iluminación, Vibraciones, stress y carga térmica, ventilación,   PAT, Radiaciones.
+                        -Muestreo, análisis y medición de contaminantes químicos en el ambiente laboral.
+                        (Polvo total y respirable, metales pesados, gases, Vtex, Covs, PaH)   otras determinaciones.
+                        -Ergonomía. Diagnóstico y análisis de metodologías de trabajo, según resolución N 886/15.
+                    </div>
                     <a class="btn btn-link" data-bs-toggle="collapse" href="#moreText2" role="button" aria-expanded="false" aria-controls="moreText2">Leer más</a>
                 </div>
             </div>
@@ -130,7 +140,7 @@ require('src/layout/header/header.php');
                 </div>
                 <div class="col-9">
                     <h2 class="text-black">Aparatos sometidos a presión</h2>
-                    <div id="moreText3" class="collapse">...</div>
+                    <div id="moreText3" class="collapse">-Registro y control de aparatos sometidos a presión.</div>
                     <a class="btn btn-link" data-bs-toggle="collapse" href="#moreText3" role="button" aria-expanded="false" aria-controls="moreText3">Leer más</a>
                 </div>
             </div>
@@ -143,7 +153,10 @@ require('src/layout/header/header.php');
                 </div>
                 <div class="col-9">
                     <h2 class="text-black">Confección de Manual de Seguridad y salud ocupacional</h2>
-                    <div id="moreText4" class="collapse">...</div>
+                    <div id="moreText4" class="collapse">-Confección del manual general de la empresa, normas generales, específicas y procedimientos técnicos para las tareas que involucran riesgos a los trabajadores y/o terceros.
+                        -¿Qué es un Manual de Seguridad?
+                        -Es el documento encargado de regular las condiciones generales de Higiene y Seguridad dentro de los ambientes de trabajo y de esparcimiento dentro de la institución, las que están diseñadas de tal manera que permitan reducir los riesgos de accidentes y enfermedades laborales para los empleados y personal contratado por la Institución, lo que deriva en que su observancia es de carácter general y obligatorio.  Se encuentran definidas algunas recomendaciones técnicas para tratar de disminuir entre los empleados y personal contratado los riesgos al padecimiento de enfermedades que sean producto de su actividad productiva. La utilidad que tiene la aplicación e implementación del presente manual es la de proveer a los empleados y personal contratado de instalaciones, equipo y condiciones apropiadas para que su tiempo de estadía en la institución cuente con la minimización de riesgos y al padecimiento de enfermedades que impliquen la disminución de sus capacidades.
+                    </div>
                     <a class="btn btn-link" data-bs-toggle="collapse" href="#moreText4" role="button" aria-expanded="false" aria-controls="moreText4">Leer más</a>
                 </div>
             </div>
@@ -156,7 +169,12 @@ require('src/layout/header/header.php');
                 </div>
                 <div class="col-9">
                     <h2 class="text-black">Programas de seguridad e higiene</h2>
-                    <div id="moreText5" class="collapse">...</div>
+                    <div id="moreText5" class="collapse">-Elaboración y ejecución de programas, identificando los peligros, analizando los riesgos, con el objeto de proponer mejoras y minimizar eventos que puedan generar accidentes o enfermedades profesionales.
+                        -¿Qué es un Programa de Seguridad?
+                        Un Programa de Seguridad de Obra es un documento mediante el cual se especifican las   diferentes etapas de un proyecto (Obra) en el cual se declaran los datos del cliente, tipo de actividades a desarrollar, personal afectado a la obra y su cobertura de seguro (ART) con la finalidad de evaluar los diferentes riesgos y peligros en cada etapa de la obra para buscar su correcta medida de control y prevención de accidentes.
+                        -El Programa de Seguridad (PS), debe ser elaborado por la empresa con el asesoramiento de un ingeniero en Seguridad e Higiene quien va evaluar los Riesgos y sus medidas de Control, se deberá formar y concientizar al personal sobre los peligros de las tareas a realizar como así también proveer de todos los elementos de protección personal necesarios.
+                        -Los Programas de Seguridad (PS) deben ser Aprobados por la ART, la cual asignará un cronograma de visitas a obra para verificar el cumplimiento de las medidas de seguridad descritas en dicho programa.
+                    </div>
                     <a class="btn btn-link" data-bs-toggle="collapse" href="#moreText5" role="button" aria-expanded="false" aria-controls="moreText5">Leer más</a>
                 </div>
             </div>
@@ -169,7 +187,9 @@ require('src/layout/header/header.php');
                 </div>
                 <div class="col-9">
                     <h2 class="text-black">Prácticas con matafuegos</h2>
-                    <div id="moreText6" class="collapse">...</div>
+                    <div id="moreText6" class="collapse">-Curso práctico de introducción a los distintos tipos de fuego.
+                        -Uso de matafuegos.
+                        -Uso de hidrantes. </div>
                     <a class="btn btn-link" data-bs-toggle="collapse" href="#moreText6" role="button" aria-expanded="false" aria-controls="moreText6">Leer más</a>
                 </div>
             </div>
@@ -182,7 +202,8 @@ require('src/layout/header/header.php');
                 </div>
                 <div class="col-9">
                     <h2 class="text-black">Confección de Matrices Iper</h2>
-                    <div id="moreText7" class="collapse">...</div>
+                    <div id="moreText7" class="collapse">-Se realiza relevamiento, análisis de las diferentes tareas, actividades, con el fin de identificar los peligros y analizar los riesgos. Se presenta una o varias Matrices de riesgos para tener identificada las tareas y realizar una ponderación a fin de poder implementar acciones  o medidas de contención.
+                    </div>
                     <a class="btn btn-link" data-bs-toggle="collapse" href="#moreText7" role="button" aria-expanded="false" aria-controls="moreText7">Leer más</a>
                 </div>
             </div>

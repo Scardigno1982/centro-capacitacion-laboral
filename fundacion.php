@@ -67,8 +67,8 @@ require('src/layout/header/header.php');
 
 <section id="proposito" class="section hero-content-fundacion d-flex align-items-center">
     <div class="container">
-        <div class="hero-content text-center">
-            <h2>FORMAMOS EL FUTURO DE LA INDUSTRIA »</h2>
+        <div class="fondo-letras-header">
+            <h1 style="color: #EBA433; font-size: 50px; font-weight: normal">FORMAMOS EL FUTURO DE LA INDUSTRIA »</h1>
         </div>
     </div>
     <div class="down-arrow">
@@ -109,13 +109,18 @@ require('src/layout/header/header.php');
 
 <section id="services" class="service-section padding">
     <div class="container-fluid">
-        <div class="col-12">
-            <h3 class="text-black text-center" style="font-size: 21px">Nuestra misión es clara: promover la seguridad y salud ocupacional de personas y medio ambiente, como punto de partida en la prevención, brindando herramientas a través de la formación y enseñanza, brindando conocimientos para evitar accidentes de trabajo.
-                Trabajamos para ser líderes en nuestro sector, no sólo a nivel local, sino también como referentes geográficos. Promovemos la formación como eje principal en diferentes trabajos y actividades, impactando positivamente en la sociedad y en el crecimiento de las empresas.
-                En CCL, Centro de Capacitación y Formación Fray Luis Beltrán, confiamos en que nuestros valores son la base de todo lo que hacemos. El liderazgo impulsa nuestra capacidad para innovar y acompañar las transformaciones en cada industria. El compromiso nos impulsa a ofrecer siempre lo mejor a nuestros clientes, adaptándonos a sus necesidades y superando sus expectativas.
-                Buscamos crear un impacto positivo en la sociedad, asumiendo la responsabilidad de nuestras acciones y promoviendo la formación, la enseñanza y las prácticas sostenibles. La calidad es un pilar en nuestro enfoque. </h3>
+        <div class="row justify-content-center">
+            <div class="col-10">
+                <h3 class="text-black text-center" style="font-size: 21px">
+                    Nuestra misión es clara: promover la seguridad y salud ocupacional de personas y medio ambiente, como punto de partida en la prevención, brindando herramientas a través de la formación y enseñanza, brindando conocimientos para evitar accidentes de trabajo.
+                    Trabajamos para ser líderes en nuestro sector, no sólo a nivel local, sino también como referentes geográficos. Promovemos la formación como eje principal en diferentes trabajos y actividades, impactando positivamente en la sociedad y en el crecimiento de las empresas.
+                    En CCL, Centro de Capacitación y Formación Fray Luis Beltrán, confiamos en que nuestros valores son la base de todo lo que hacemos. El liderazgo impulsa nuestra capacidad para innovar y acompañar las transformaciones en cada industria. El compromiso nos impulsa a ofrecer siempre lo mejor a nuestros clientes, adaptándonos a sus necesidades y superando sus expectativas.
+                    Buscamos crear un impacto positivo en la sociedad, asumiendo la responsabilidad de nuestras acciones y promoviendo la formación, la enseñanza y las prácticas sostenibles. La calidad es un pilar en nuestro enfoque.
+                </h3>
+            </div>
         </div>
     </div>
+
 </section><!-- service-section -->
 
 

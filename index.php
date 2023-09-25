@@ -66,7 +66,8 @@ require('src/layout/header/header.php');
 
 <section id="proposito" class="hero-section d-flex align-items-center">
     <div class="container">
-        <div class="hero-content text-center">
+        <div class="fondo-letras-header">
+            <h1 style="color: #EBA433; font-size: 50px; font-weight: normal">FORMAMOS EL FUTURO DE LA INDUSTRIA »</h1>
         </div>
     </div>
     <div class="down-arrow">
@@ -128,23 +129,21 @@ require('src/layout/header/header.php');
         </div>
     </div>
 
-    <div class="container">
-        <div class="row justify-content-center align-items-center mt-5">
-            <div class="col text-center"><img src="img/partner/Acelor.png" class="img-fluid"></div>
-            <div class="col text-center"><img src="img/partner/DominionEnergy.png" class="img-fluid"></div>
-            <div class="col text-center"><img src="img/partner/GrupoMaresa.png" class="img-fluid"></div>
-            <div class="col text-center"><img src="img/partner/Loberaz.png" class="img-fluid"></div>
-            <div class="col text-center"><img src="img/partner/LomaNegra.png" class="img-fluid"></div>
-            <div class="col text-center"><img src="img/partner/Novasider.png" class="img-fluid"></div>
-            <div class="col text-center"><img src="img/partner/Protto.png" class="img-fluid"></div>
-            <div class="col text-center"><img src="img/partner/Techint.png" class="img-fluid"></div>
-            <div class="col text-center"><img src="img/partner/Tenaris.png" class="img-fluid"></div>
-            <div class="col text-center"><img src="img/partner/Ternium.png" class="img-fluid"></div>
-        </div>
+<div class="container">
+    <div class="partner">
+        <div><img src="img/partner/Acelor.png" width="200" style="text-align: center"></div>
+        <div><img src="img/partner/DominionEnergy.png"  class="example-image img-fluid" width="200"></div>
+        <div><img src="img/partner/GrupoMaresa.png" width="200" style="text-align: center"></div>
+        <div><img src="img/partner/Loberaz.png" width="200" style="text-align: center"></div>
+        <div><img src="img/partner/LomaNegra.png" width="200" style="text-align: center"></div>
+        <div><img src="img/partner/Novasider.png" width="200" style="text-align: center"></div>
+        <div><img src="img/partner/Protto.png" width="200" style="text-align: center"></div>
+        <div><img src="img/partner/Techint.png" width="200" style="text-align: center"></div>
+        <div><img src="img/partner/Tenaris.png" width="200" style="text-align: center"></div>
+        <div><img src="img/partner/Ternium.png" width="200" style="text-align: center"></div>
     </div>
+</div>
 
-
-</section><!-- seccion de partner-->
 
 
 <!--slider-footer-->
@@ -153,16 +152,64 @@ require('src/layout/header/header.php');
     <div class="col-12">
         <h1 class="text-center text-black">Conocé nuestro Instituto</h1>
     </div>
-    <div class="slider1" id="slider1">
+    <div class="slider" id="slider">
         <div>
             <a data-bs-toggle="modal" data-bs-target="#exampleModal">
-                <img src="img/slider/imagen1.png" width="60%" style="text-align: center">
+                <img src="img/slider-home-footer/CCL-1.jpg" width="95%" style="text-align: center">
+            </a>
+        </div>
+
+        <div>
+            <a data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <img src="img/slider-home-footer/CCL-2.jpg" width="95%" style="text-align: center">
+            </a>
+        </div>
+
+        <div>
+            <a data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <img src="img/slider-home-footer/CCL-3.jpg" width="95%" style="text-align: center">
+            </a>
+        </div>
+
+        <div>
+            <a data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <img src="img/slider-home-footer/CCL-4.jpg" width="95%" style="text-align: center">
+            </a>
+        </div>
+
+        <div>
+            <a data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <img src="img/slider-home-footer/CCL-5.jpg" width="95%" style="text-align: center">
             </a>
         </div>
 
         <div>
             <a data-bs-toggle="modal" data-bs-target="#exampleModal2">
-                <img src="img/slider/imagen2.png" width="95%" style="text-align: center">
+                <img src="img/slider-home-footer/CCL-6.jpg" width="95%" style="text-align: center">
+            </a>
+        </div>
+
+        <div>
+            <a data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                <img src="img/slider-home-footer/CCL-7.jpg" width="95%" style="text-align: center">
+            </a>
+        </div>
+
+        <div>
+            <a data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                <img src="img/slider-home-footer/CCL-8.jpg" width="95%" style="text-align: center">
+            </a>
+        </div>
+
+        <div>
+            <a data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                <img src="img/slider-home-footer/CCL-9.jpg" width="95%" style="text-align: center">
+            </a>
+        </div>
+
+        <div>
+            <a data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                <img src="img/slider-home-footer/CCL-10.jpg" width="95%" style="text-align: center">
             </a>
         </div>
 
@@ -180,10 +227,35 @@ require('src/layout/header/header.php');
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <a class="example-image-link" href="assets/images_cem/nosotros/ambulancia-pre-footer.webp" data-lightbox="example-2" data-title="Conocé nustras aulas">
-                        <img class="example-image img-fluid" src="assets/images_cem/nosotros/ambulancia-pre-footer.webp" alt="Conocé nustras aulas"/><br>
+                    <a class="example-image-link" href="img/slider-home-footer/CCL-1.jpg" data-lightbox="example-2" data-title="Conocé nustras aulas">
+                        <img class="example-image img-fluid" src="img/slider-home-footer/CCL-1.jpg" alt="Conocé nustras aulas"/><br>
                     </a>
                 </div>
+
+                <div class="modal-body">
+                    <a class="example-image-link" href="img/slider-home-footer/CCL-2.jpg" data-lightbox="example-2" data-title="Conocé nustras aulas">
+                        <img class="example-image img-fluid" src="img/slider-home-footer/CCL-2.jpg" alt="Conocé nustras aulas"/><br>
+                    </a>
+                </div>
+
+                <div class="modal-body">
+                    <a class="example-image-link" href="img/slider-home-footer/CCL-3.jpg" data-lightbox="example-2" data-title="Conocé nustras aulas">
+                        <img class="example-image img-fluid" src="img/slider-home-footer/CCL-3.jpg" alt="Conocé nustras aulas"/><br>
+                    </a>
+                </div>
+
+                <div class="modal-body">
+                    <a class="example-image-link" href="img/slider-home-footer/CCL-4.jpg" data-lightbox="example-2" data-title="Conocé nustras aulas">
+                        <img class="example-image img-fluid" src="img/slider-home-footer/CCL-4.jpg" alt="Conocé nustras aulas"/><br>
+                    </a>
+                </div>
+
+                <div class="modal-body">
+                    <a class="example-image-link" href="img/slider-home-footer/CCL-5.jpg" data-lightbox="example-2" data-title="Conocé nustras aulas">
+                        <img class="example-image img-fluid" src="img/slider-home-footer/CCL-5.jpg" alt="Conocé nustras aulas"/><br>
+                    </a>
+                </div>
+
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
                     <!--                    <button type="button" class="btn btn-primary">Save changes</button>-->
@@ -201,10 +273,33 @@ require('src/layout/header/header.php');
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <a class="example-image-link" href="assets/images_cem/nosotros/ambulancia-pre-footer.webp" data-lightbox="example-2" data-title="Nuestros Equipos">
-                        <img class="example-image img-fluid" src="assets/images_cem/nosotros/ambulancia-pre-footer.webp" alt="Nuestros Equipos"/><br>
+                    <a class="example-image-link" href="img/slider-home-footer/CCL-6.jpg" data-lightbox="example-2" data-title="Nuestros Equipos">
+                        <img class="example-image img-fluid" src="img/slider-home-footer/CCL-6.jpg" alt="Nuestros Equipos"/><br>
                     </a>
+                </div>
 
+                <div class="modal-body">
+                    <a class="example-image-link" href="img/slider-home-footer/CCL-7.jpg" data-lightbox="example-2" data-title="Nuestros Equipos">
+                        <img class="example-image img-fluid" src="img/slider-home-footer/CCL-7.jpg" alt="Nuestros Equipos"/><br>
+                    </a>
+                </div>
+
+                <div class="modal-body">
+                    <a class="example-image-link" href="img/slider-home-footer/CCL-8jpg" data-lightbox="example-2" data-title="Nuestros Equipos">
+                        <img class="example-image img-fluid" src="img/slider-home-footer/CCL-8.jpg" alt="Nuestros Equipos"/><br>
+                    </a>
+                </div>
+
+                <div class="modal-body">
+                    <a class="example-image-link" href="img/slider-home-footer/CCL-9jpg" data-lightbox="example-2" data-title="Nuestros Equipos">
+                        <img class="example-image img-fluid" src="img/slider-home-footer/CCL-9.jpg" alt="Nuestros Equipos"/><br>
+                    </a>
+                </div>
+
+                <div class="modal-body">
+                    <a class="example-image-link" href="img/slider-home-footer/CCL-10jpg" data-lightbox="example-2" data-title="Nuestros Equipos">
+                        <img class="example-image img-fluid" src="img/slider-home-footer/CCL-10.jpg" alt="Nuestros Equipos"/><br>
+                    </a>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -218,8 +313,6 @@ require('src/layout/header/header.php');
 </div>
 </div>
 <!--slider-footer-->
-
-
 
 
 <?php
@@ -253,7 +346,8 @@ require('src/layout/footer/footer.php');
 <!-- Main JS -->
 <script src="js/main.js"></script>
 
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
 <!--Slider-->
 <link rel="stylesheet" type="text/css" href="css/slick.css"/>
@@ -267,8 +361,9 @@ require('src/layout/footer/footer.php');
 
 <script src="src/js/jquery.nivo.slider.js"></script>
 
+
 <script type="text/javascript">
-    $('.slider1').slick({
+    $('.slider').slick({
         dots: true,
         prevArrow: '<span id="arrow1" class="fas fa-chevron-left"></span>',
         nextArrow: '<span id="arrow2" class="fas fa-chevron-right"></span>',
@@ -282,8 +377,8 @@ require('src/layout/footer/footer.php');
             {
                 breakpoint: 1024,
                 settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 3,
+                    slidesToShow: 4,
+                    slidesToScroll: 2,
                     infinite: true,
                     dots: true
                 }
@@ -311,8 +406,52 @@ require('src/layout/footer/footer.php');
 </script>
 
 <script>
-    $('#slider').nivoSlider();
+    $('#slider-institucion').nivoSlider();
 </script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.partner').slick({
+                dots: true,
+                prevArrow: '<span id="arrow1" class="fas fa-chevron-left"></span>',
+                nextArrow: '<span id="arrow2" class="fas fa-chevron-right"></span>',
+                infinite: true,
+                speed: 300,
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 4,
+                            slidesToScroll: 1,
+                            infinite: true,
+                            dots: true
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                    // You can unslick at a given breakpoint now by adding:
+                    // settings: "unslick"
+                    // instead of a settings object
+                ]
+        });
+        });
+    </script>
 
 <script>
 

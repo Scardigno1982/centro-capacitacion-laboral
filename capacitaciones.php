@@ -68,7 +68,9 @@ require('src/layout/header/header.php');
 <section id="proposito" class="section hero-content-capacitacion d-flex align-items-center">
     <div class="container">
         <div class="hero-content text-center">
-            <h2>FORMAMOS EL FUTURO DE LA INDUSTRIA »</h2>
+            <div class="fondo-letras-header">
+                <h1 style="color: #EBA433; font-size: 50px; font-weight: normal">FORMAMOS EL FUTURO DE LA INDUSTRIA »</h1>
+            </div>
         </div>
     </div>
     <div class="down-arrow">
@@ -110,11 +112,22 @@ require('src/layout/header/header.php');
                 <h2 class="text-black">Temas de capacitaciones</h2>
                 <div id="moreText1" class="collapse">
                     <p>
-                        » Certificaciones de Riesgo: ...
-                        » Talleres de sensibilización. ...
-                        » Higiene industrial. ...
-                        » Manejo de monta cargas /auto elevadores. ...
-                        » Planes de emergencias / Uso de matafuegos. ...
+                        -Confección de Análisis previo de riesgo (APR). Se capacita al personal sobre el significado y la importancia de realizarla. Se presenta planilla tipo, acorde a modalidades de las empresas y se analiza punto por punto.
+                        -Curso de Percepción de Riesgos.  Realizamos una recorrida por los conceptos de la percepción, para definir e introducir el tema en percepción de riesgos. Tema vital para la prevención de eventos.
+                        -Inducción Contratistas para Ternium. Material que se presenta y recorre las normas básicas y procedimientos para poder ingresar y poder trabajar dentro de la empresa.
+                        -Inducción Transportistas para Ternium. Material que se presenta y recorre las normas básicas y procedimientos para poder ingresar y poder trabajar dentro de la empresa.
+
+                        -Introducción a las reglas que salvan Vidas, programa Ternium. Se capacita al personal en cada una de las reglas, con el fin de identificar cuáles son las que debe de identificar a la hora de resolver un trabajo y poder minimizar los peligros potenciales.
+                        -Bloqueo efectivo. Se introduce al personal en la temática del B.E. Se presentan conceptos básicos y definiciones. Se capacita sobre el paso a paso de un bloqueo. Las necesidades de las instalaciones y procedimientos a fin de minimizar los eventos. Se realizan juegos de roles y prácticas para naturalizar los conceptos. Se presentan diferentes accesorios para los B.E.
+                        -Espacio Confinado. Describir las reglas y procedimientos para realizar un ingreso seguro a espacios confinados. Identificar las reglas de seguridad aplicables a espacios confinados. Aplicar los conceptos aprendidos para auditar el cumplimiento de las reglas, procedimientos y permisos de entrada a espacios confinados.
+
+
+                        -Certificaciones de Riesgo: constancia que se entrega al final de un proceso que acredita que una persona posee los conocimientos y habilidades necesarias para desempeñar las actividades. Certificaciones de operadores de autoelevadores, Choferes de camiones, Trabajos en altura, Operadores de Grúas.
+                        -Talleres de sensibilización.  Nos enfocamos en módulos para concientizar, sensibilizar al personal en espacios confinados, operación de grúas puente y manejo de autoelevadores.
+                        -Higiene industrial. Aprender a identificar los peligros y riesgos para la salud presentes en el ambiente de trabajo. Ruido, carga y stress térmico, vibraciones, sustancias químicas, ergonomías son ejemplos de lo que se dicta.
+                        -Manejo de montacargas /autoelevadores. Conocer los diferentes tipos de montacargas / autoelevadores, así como sus principales componentes y funciones. Aprender en qué consiste la inspección y la revisión de un montacargas / autoelevador. Conocer los lineamientos para la operación segura de montacargas / autoelevadores.
+                        -Planes de emergencias / Uso de matafuegos. ¿Que es una emergencia? Planes internos de emergencias (Roles y responsabilidades), Situación de la emergencia, medios de comunicación, procedimientos, comunicación final.
+
                     </p>
                 </div>
                 <a class="btn btn-link" data-bs-toggle="collapse" href="#moreText1" role="button" aria-expanded="false" aria-controls="moreText1">Leer más</a>
@@ -129,7 +142,20 @@ require('src/layout/header/header.php');
             </div>
             <div class="col-9">
                 <h2 class="text-black">Planes de capacitación</h2>
-                <div id="moreText2" class="collapse"> ... </div>
+                <div id="moreText2" class="collapse">-Se programan diferentes actividades de capacitación en las instalaciones del CCL- FLB (Centro de capacitación – Fray Luis Beltrán).
+                    -Todas nuestras capacitaciones cuentan con examen al final de la cursada.
+                    -Todas las capacitaciones se trabajan con videos de accidentes con el fin de concientizar al personal.
+                    -Capacitación en la percepción de riesgos. Alineados a programas de diferentes empresas.
+                    -Realizamos capacitación para mejorar la gestión de los riesgos de seguridad y salud ocupacional. Reforzamos el conocimiento para la detección de desvíos e incidentes.
+                    -Contamos con capacitación específica de transporte de productos siderúrgicos en materia de seguridad y salud ocupacional. Contamos con diferentes temáticas, acorde a demandas de las grandes empresas
+
+                    -Fortalecer el cumplimiento legal, realizando un análisis y presentando un status de situación.
+                    -Capacitación sobre temas específicos relacionados con prevención de incendios.
+                    -Capacitación en prevención de accidentes de trabajo.
+                    -Capacitación en el uso de matafuegos.
+                    -Capacitación a empleados, mandos medios, dueños de empresas en materia de seguridad y salud ocupacional.
+                    Formación a profesionales de Higiene y Seguridad.
+                </div>
                 <a class="btn btn-link" data-bs-toggle="collapse" href="#moreText2" role="button" aria-expanded="false" aria-controls="moreText2">Leer más</a>
             </div>
         </div>
@@ -142,7 +168,9 @@ require('src/layout/header/header.php');
             </div>
             <div class="col-9">
                 <h2 class="text-black">RCP</h2>
-                <div id="moreText3" class="collapse"> ... </div>
+                <div id="moreText3" class="collapse"> -La reanimación cardiopulmonar, o reanimación cardiorrespiratoria, abreviada como RCP, es un conjunto de maniobras temporales y normalizadas, destinadas a asegurar la oxigenación de los órganos vitales cuando la circulación de la sangre de una persona se detiene, independientemente de la causa del paro cardiorrespiratorio.
+                    Se realizan cursos teóricos – prácticos.
+                </div>
                 <a class="btn btn-link" data-bs-toggle="collapse" href="#moreText3" role="button" aria-expanded="false" aria-controls="moreText3">Leer más</a>
             </div>
         </div>
@@ -155,7 +183,10 @@ require('src/layout/header/header.php');
             </div>
             <div class="col-9">
                 <h2 class="text-black">Inducción de seguridad corporativa</h2>
-                <div id="moreText4" class="collapse"> ... </div>
+                <div id="moreText4" class="collapse"> -Inducción Contratistas para Ternium. Material que se presenta y recorre las normas básicas y procedimientos para poder ingresar y poder trabajar dentro de la empresa.
+                    <br>
+                    <br>
+                    -Inducción Transportistas para Ternium. Material que se presenta y recorre las normas básicas y procedimientos para poder ingresar y poder trabajar dentro de la empresa. </div>
                 <a class="btn btn-link" data-bs-toggle="collapse" href="#moreText4" role="button" aria-expanded="false" aria-controls="moreText4">Leer más</a>
             </div>
         </div>
@@ -168,7 +199,11 @@ require('src/layout/header/header.php');
             </div>
             <div class="col-9">
                 <h2 class="text-black">Prevención de Incendio Teoría.</h2>
-                <div id="moreText5" class="collapse"> ... </div>
+                <div id="moreText5" class="collapse"> -Realización de carga de fuego. Recorrida por la empresa, sectores, talleres identificando las distintas cargas de fuego.
+                    -Asesoramientos según legislación vigente.
+                    -Confecciones de planes de evacuación (Cálculos, anchos de salida, factor de ocupación, señalización)
+                    -Capacitación en el uso de matafuegos.
+                </div>
                 <a class="btn btn-link" data-bs-toggle="collapse" href="#moreText5" role="button" aria-expanded="false" aria-controls="moreText5">Leer más</a>
             </div>
         </div>
@@ -181,18 +216,66 @@ require('src/layout/header/header.php');
 <div class="naranja">
     <div class="container mt-5 mb-5" id="fabrica" >
         <div class="col-12">
-            <h1 class="text-center text-black">Mirá nuestras capacitaciones</h1>
+            <h1 class="text-center text-black">Conocé nuestro Instituto</h1>
         </div>
         <div class="slider1" id="slider1">
             <div>
                 <a data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    <img src="img/slider/imagen1.png" width="95%" style="text-align: center">
+                    <img src="img/slider-home-footer/CCL-1.jpg" width="95%" style="text-align: center">
+                </a>
+            </div>
+
+            <div>
+                <a data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <img src="img/slider-home-footer/CCL-2.jpg" width="95%" style="text-align: center">
+                </a>
+            </div>
+
+            <div>
+                <a data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <img src="img/slider-home-footer/CCL-3.jpg" width="95%" style="text-align: center">
+                </a>
+            </div>
+
+            <div>
+                <a data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <img src="img/slider-home-footer/CCL-4.jpg" width="95%" style="text-align: center">
+                </a>
+            </div>
+
+            <div>
+                <a data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <img src="img/slider-home-footer/CCL-5.jpg" width="95%" style="text-align: center">
                 </a>
             </div>
 
             <div>
                 <a data-bs-toggle="modal" data-bs-target="#exampleModal2">
-                    <img src="img/slider/imagen2.png" width="95%" style="text-align: center">
+                    <img src="img/slider-home-footer/CCL-6.jpg" width="95%" style="text-align: center">
+                </a>
+            </div>
+
+            <div>
+                <a data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                    <img src="img/slider-home-footer/CCL-7.jpg" width="95%" style="text-align: center">
+                </a>
+            </div>
+
+            <div>
+                <a data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                    <img src="img/slider-home-footer/CCL-8.jpg" width="95%" style="text-align: center">
+                </a>
+            </div>
+
+            <div>
+                <a data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                    <img src="img/slider-home-footer/CCL-9.jpg" width="95%" style="text-align: center">
+                </a>
+            </div>
+
+            <div>
+                <a data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                    <img src="img/slider-home-footer/CCL-10.jpg" width="95%" style="text-align: center">
                 </a>
             </div>
 
@@ -210,10 +293,35 @@ require('src/layout/header/header.php');
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <a class="example-image-link" href="assets/images_cem/nosotros/ambulancia-pre-footer.webp" data-lightbox="example-2" data-title="Conocé nustras aulas">
-                            <img class="example-image img-fluid" src="assets/images_cem/nosotros/ambulancia-pre-footer.webp" alt="Conocé nustras aulas"/><br>
+                        <a class="example-image-link" href="img/slider-home-footer/CCL-1.jpg" data-lightbox="example-2" data-title="Conocé nustras aulas">
+                            <img class="example-image img-fluid" src="img/slider-home-footer/CCL-1.jpg" alt="Conocé nustras aulas"/><br>
                         </a>
                     </div>
+
+                    <div class="modal-body">
+                        <a class="example-image-link" href="img/slider-home-footer/CCL-2.jpg" data-lightbox="example-2" data-title="Conocé nustras aulas">
+                            <img class="example-image img-fluid" src="img/slider-home-footer/CCL-2.jpg" alt="Conocé nustras aulas"/><br>
+                        </a>
+                    </div>
+
+                    <div class="modal-body">
+                        <a class="example-image-link" href="img/slider-home-footer/CCL-3.jpg" data-lightbox="example-2" data-title="Conocé nustras aulas">
+                            <img class="example-image img-fluid" src="img/slider-home-footer/CCL-3.jpg" alt="Conocé nustras aulas"/><br>
+                        </a>
+                    </div>
+
+                    <div class="modal-body">
+                        <a class="example-image-link" href="img/slider-home-footer/CCL-4.jpg" data-lightbox="example-2" data-title="Conocé nustras aulas">
+                            <img class="example-image img-fluid" src="img/slider-home-footer/CCL-4.jpg" alt="Conocé nustras aulas"/><br>
+                        </a>
+                    </div>
+
+                    <div class="modal-body">
+                        <a class="example-image-link" href="img/slider-home-footer/CCL-5.jpg" data-lightbox="example-2" data-title="Conocé nustras aulas">
+                            <img class="example-image img-fluid" src="img/slider-home-footer/CCL-5.jpg" alt="Conocé nustras aulas"/><br>
+                        </a>
+                    </div>
+
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
                         <!--                    <button type="button" class="btn btn-primary">Save changes</button>-->
@@ -231,10 +339,33 @@ require('src/layout/header/header.php');
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <a class="example-image-link" href="assets/images_cem/nosotros/ambulancia-pre-footer.webp" data-lightbox="example-2" data-title="Nuestros Equipos">
-                            <img class="example-image img-fluid" src="assets/images_cem/nosotros/ambulancia-pre-footer.webp" alt="Nuestros Equipos"/><br>
+                        <a class="example-image-link" href="img/slider-home-footer/CCL-6.jpg" data-lightbox="example-2" data-title="Nuestros Equipos">
+                            <img class="example-image img-fluid" src="img/slider-home-footer/CCL-6.jpg" alt="Nuestros Equipos"/><br>
                         </a>
+                    </div>
 
+                    <div class="modal-body">
+                        <a class="example-image-link" href="img/slider-home-footer/CCL-7.jpg" data-lightbox="example-2" data-title="Nuestros Equipos">
+                            <img class="example-image img-fluid" src="img/slider-home-footer/CCL-7.jpg" alt="Nuestros Equipos"/><br>
+                        </a>
+                    </div>
+
+                    <div class="modal-body">
+                        <a class="example-image-link" href="img/slider-home-footer/CCL-8jpg" data-lightbox="example-2" data-title="Nuestros Equipos">
+                            <img class="example-image img-fluid" src="img/slider-home-footer/CCL-8.jpg" alt="Nuestros Equipos"/><br>
+                        </a>
+                    </div>
+
+                    <div class="modal-body">
+                        <a class="example-image-link" href="img/slider-home-footer/CCL-9jpg" data-lightbox="example-2" data-title="Nuestros Equipos">
+                            <img class="example-image img-fluid" src="img/slider-home-footer/CCL-9.jpg" alt="Nuestros Equipos"/><br>
+                        </a>
+                    </div>
+
+                    <div class="modal-body">
+                        <a class="example-image-link" href="img/slider-home-footer/CCL-10jpg" data-lightbox="example-2" data-title="Nuestros Equipos">
+                            <img class="example-image img-fluid" src="img/slider-home-footer/CCL-10.jpg" alt="Nuestros Equipos"/><br>
+                        </a>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -247,6 +378,7 @@ require('src/layout/header/header.php');
 
     </div>
 </div>
+<!--slider-footer-->
 <!--slider-footer-->
 
 
@@ -288,7 +420,7 @@ require('src/layout/footer/footer.php');
 <!--// Add the new slick-theme.css if you want the default styling-->
 <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
 <!--Bootstrap-->
-<script src="src/js/bootstrap.bundle.min.js"></script>
+<!--<script src="src/js/bootstrap.bundle.min.js"></script>-->
 
 <!-- Slider jQuery  Addon -->
 <script src="src/js/slick.min.js"></script>
@@ -349,8 +481,6 @@ require('src/layout/footer/footer.php');
     });
 
 </script>
-
-
 
 </body>
 </html>
