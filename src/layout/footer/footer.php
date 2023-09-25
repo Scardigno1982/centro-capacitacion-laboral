@@ -34,12 +34,14 @@
                     <div class="row">
                         <div class="col-lg-6 col-sm-12 text-lg-right text-center">
                             <div class="texto-qr">
-                                <h4>¿Cómo llegar?<br>
-                                    Link directo a Google Maps >></h4>
+                                <a href="contacto.php#google-maps">
+                                    <h4>¿Cómo llegar?<br>
+                                        Link directo a Google Maps >></h4>
+                                </a>
                             </div>
                         </div>
                         <div class="col-lg-6 col-sm-12 text-lg-right text-center">
-                            <img src="img/footer/qr.png" class="img-fluid qr">
+                            <img src="img/footer/qrcode-nuevo.jpeg" class="img-fluid qr" width="120">
                         </div>
                     </div>
 

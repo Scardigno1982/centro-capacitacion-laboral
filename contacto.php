@@ -89,7 +89,7 @@ require('src/layout/header/header.php');
 
 
 <div class="container mt-5 mb-5">
-    <div class="row">
+    <div class="row" id="google-maps">
         <div class="col-4">
             <h1 style="color: #1d2124; font-size: 60px;">CCL</h1>
             <h2 style="color: #1d2124; font-size: 20px;">CENTRO DE CAPACITACIÓN LABORAL</h2>
@@ -100,7 +100,9 @@ require('src/layout/header/header.php');
                 Cel: 3407 439789</p>
         </div>
 
-        <div class="col-8"></div>
+        <div class="col-8">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6663.942178898693!2d-60.1690979!3d-33.3718208!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b75dd40c509ac7%3A0x7d1e16730a2f922d!2sCentro%20de%20Capacitacion%20Fray%20Luis%20Beltran!5e0!3m2!1ses!2sar!4v1695649272168!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </div>
 </div>
 

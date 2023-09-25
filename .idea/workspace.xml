@@ -5,29 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9ba1901-4fc4-4e1a-9b26-feae5ceb0140" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/img/slider-home-footer/CCL-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/slider-home-footer/CCL-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/slider-home-footer/CCL-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/slider-home-footer/CCL-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/slider-home-footer/CCL-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/slider-home-footer/CCL-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/slider-home-footer/CCL-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/slider-home-footer/CCL-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/slider-home-footer/CCL-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/slider-home-footer/CCL-9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/slider/CCL-HEADERS-LA-INSTITUCION-nuevo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/footer/qrcode-nuevo.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capacitaciones.php" beforeDir="false" afterPath="$PROJECT_DIR$/capacitaciones.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fundacion.php" beforeDir="false" afterPath="$PROJECT_DIR$/fundacion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/slider/CCL-HEADERS-CAPACITACIONES.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/slider/CCL-HEADERS-CAPACITACIONES.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/slider/CCL-HEADERS-CONTACTO.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/slider/CCL-HEADERS-CONTACTO.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/slider/CCL-HEADERS-HOME.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/slider/CCL-HEADERS-HOME.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/slider/CCL-HEADERS-SERVICIOS.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/slider/CCL-HEADERS-SERVICIOS.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicios.php" beforeDir="false" afterPath="$PROJECT_DIR$/servicios.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/header/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contacto.php" beforeDir="false" afterPath="$PROJECT_DIR$/contacto.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/footer/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/footer/footer.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +57,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/sergi/Proyectos/centro-capacitacion-laboral/img/slider",
+    "last_opened_file_path": "C:/Users/sergi/Proyectos/centro-capacitacion-laboral/img/footer",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -88,11 +69,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sergi\Proyectos\centro-capacitacion-laboral\img\footer" />
       <recent name="C:\Users\sergi\Proyectos\centro-capacitacion-laboral\img\slider" />
       <recent name="C:\Users\sergi\Proyectos\centro-capacitacion-laboral\img\slider-home-footer" />
       <recent name="C:\Users\sergi\Proyectos\centro-capacitacion-laboral\img\partner" />
       <recent name="C:\Users\sergi\Proyectos\centro-capacitacion-laboral" />
-      <recent name="C:\Users\sergi\Proyectos\centro-capacitacion-laboral\css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\sergi\Proyectos\centro-capacitacion-laboral\img" />
@@ -135,7 +116,7 @@
       <workItem from="1695124751805" duration="494000" />
       <workItem from="1695126342098" duration="6208000" />
       <workItem from="1695466959901" duration="345000" />
-      <workItem from="1695646416250" duration="685000" />
+      <workItem from="1695646416250" duration="2128000" />
     </task>
     <servers />
   </component>
