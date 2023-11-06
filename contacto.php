@@ -67,8 +67,8 @@ require('src/layout/header/header.php');
 
 <section id="proposito" class="section hero-content-contacto d-flex align-items-center">
     <div class="container">
-        <div class="hero-content text-center">
-            <h2>FORMAMOS EL FUTURO DE LA INDUSTRIA »</h2>
+        <div class="fondo-letras-header">
+            <h1 style="color: #EBA433; font-size: 45px; font-weight: normal">FORMAMOS EL FUTURO DE LA INDUSTRIA »</h1>
         </div>
     </div>
     <div class="down-arrow">
@@ -80,7 +80,7 @@ require('src/layout/header/header.php');
 <section id="nuestro-proposito" class="about-section">
     <div class="container-fluid nuestro-proposito">
         <div class="col-12">
-            <h2 style="color: #4D4D4D">CONTACTO </h2>
+            <strong><h2 style="color: #4D4D4D">CONTACTO </h2></strong>
         </div>
     </div>
 </section><!-- about-section -->
@@ -90,18 +90,22 @@ require('src/layout/header/header.php');
 
 <div class="container mt-5 mb-5">
     <div class="row" id="google-maps">
-        <div class="col-4">
+        <div class="col-lg-4 col-sm-12">
             <h1 style="color: #1d2124; font-size: 60px;">CCL</h1>
             <h2 style="color: #1d2124; font-size: 20px;">CENTRO DE CAPACITACIÓN LABORAL</h2>
-            <p>Acceso Punta Argerich km 2,5 <br>
-                (Frente a Porteria 1 Ternium Argentina, Ramallo)<br>
-                Provincia de Buenos Aires<br>
-                Msj de WhatsApp: 3364 061737<br>
-                Cel: 3407 439789</p>
+            <p>Acceso Punta Argerich km 2,5 </p>
+            <p>(<strong>Frente a Porteria 1 Ternium</strong> Argentina, Ramallo)</p>
+            <p>Provincia de Buenos Aires</p>
+            <p>Correo: <a href="mailto:inscripciones@cclweb.com.ar">inscripciones@cclweb.com.ar</a></p>
+
         </div>
 
-        <div class="col-8">
+        <div class="col-lg-8 col-md-12 map-google">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6663.942178898693!2d-60.1690979!3d-33.3718208!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b75dd40c509ac7%3A0x7d1e16730a2f922d!2sCentro%20de%20Capacitacion%20Fray%20Luis%20Beltran!5e0!3m2!1ses!2sar!4v1695649272168!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="col-lg-8 col-md-12 map-google2">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6663.942178898693!2d-60.1690979!3d-33.3718208!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b75dd40c509ac7%3A0x7d1e16730a2f922d!2sCentro%20de%20Capacitacion%20Fray%20Luis%20Beltran!5e0!3m2!1ses!2sar!4v1695649272168!5m2!1ses!2sar" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
 </div>
@@ -117,8 +121,10 @@ require('src/layout/header/header.php');
             <input type="text" class="form-control" id="empresa" name="empresa" required>
         </div>
         <div class="form-group">
-            <label for="telefono">Teléfono:</label>
-            <input type="tel" class="form-control" id="telefono" name="telefono" required>
+            <label for="consulta">Consulta:</label>
+<!--            <input type="text" class="" id="telefono" name="telefono" required>-->
+            <textarea id="consulta" name="consulta" class="form-control" aria-label="Consulta" required></textarea>
+
         </div>
         <div class="form-row">
             <div class="form-group col-md-6">

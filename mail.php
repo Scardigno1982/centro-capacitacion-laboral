@@ -9,9 +9,12 @@ require 'vendor/autoload.php';
 //Create an instance; passing `true` enables exceptions
 $mail = new PHPMailer(true);
 
+$mail->CharSet = 'UTF-8';  // Set the CharSet to UTF-8
+
+
 $nombre = $_POST['nombre'];
 $empresa = $_POST['empresa'];
-$telefono = $_POST['telefono'];
+$consulta = $_POST['consulta'];
 $celular = $_POST['celular'];
 
 try {
@@ -28,15 +31,15 @@ try {
     $mail->setFrom('centro-capatitaciones@sitio-testeo.com.ar', 'WEB Centro de Capacitacion Laboral');
     $mail->addAddress('sergioscardigno82@gmail.com', 'WEB Centro de Capacitacion Laboral');
     $mail->addAddress('usinaestrategiasdigitales@gmail.com', 'WEB Centro de Capacitacion Laboral');
-    $mail->addAddress('sergioscardigno82@gmail.com', 'WEB Centro de Capacitacion Laboral');
+    $mail->addAddress('inscripciones@cclweb.com.ar', 'WEB Centro de Capacitacion Laboral');
 
     //Content
     $mail->isHTML(true);
     $mail->Subject = 'Mensaje de la pagina web';
     $mail->Body =    'Nombre: '.$nombre.'<br>'.
         'Empresa: '.$empresa.'<br>'.
-        'Telefono: '.$telefono.'<br>'.
-        'Celular: '.$celular;
+        'Celular: '.$celular.
+        'La consulta: '.$consulta.'<br>';
 
     $mail->send();
 

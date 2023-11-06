@@ -5,10 +5,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9ba1901-4fc4-4e1a-9b26-feae5ceb0140" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/img/footer/qrcode-nuevo.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/iconos-servicios/manual2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/slider/CCL-HEADERS-CAPACITACIONES-old.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capacitaciones.php" beforeDir="false" afterPath="$PROJECT_DIR$/capacitaciones.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contacto.php" beforeDir="false" afterPath="$PROJECT_DIR$/contacto.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/animate.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/animate.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/elegant-font-icons.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/elegant-font-icons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/elegant-line-icons.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/elegant-line-icons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/owl.carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/owl.carousel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/simpletextrotator.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/simpletextrotator.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/slicknav.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/slicknav.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/venobox/venobox.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/venobox/venobox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fundacion.php" beforeDir="false" afterPath="$PROJECT_DIR$/fundacion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/home/icono-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/home/icono-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/home/icono-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/home/icono-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/iconos-capacitaciones/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/iconos-capacitaciones/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/iconos-capacitaciones/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/iconos-capacitaciones/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/iconos-capacitaciones/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/iconos-capacitaciones/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/iconos-capacitaciones/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/iconos-capacitaciones/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/iconos-capacitaciones/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/iconos-capacitaciones/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/iconos-servicios/higiene-laboral.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/iconos-servicios/higiene-laboral.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/iconos-servicios/manual.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/iconos-servicios/manual.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/iconos-servicios/manual2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/iconos-servicios/manual2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/iconos-servicios/matafuego.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/iconos-servicios/matafuego.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/iconos-servicios/seguridad.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/iconos-servicios/seguridad.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/iconos-servicios/worker.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/iconos-servicios/worker.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/partner/Protto.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/partner/Protto.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/partner/Techint.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/partner/Techint.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/partner/Ternium.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/partner/Ternium.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/slider/CCL-HEADERS-CAPACITACIONES.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/slider/CCL-HEADERS-CAPACITACIONES.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/mail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicios.php" beforeDir="false" afterPath="$PROJECT_DIR$/servicios.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/footer/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/footer/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/header/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header/header.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +94,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/sergi/Proyectos/centro-capacitacion-laboral/img/footer",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/sergi/Proyectos/centro-capacitacion-laboral",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -69,11 +107,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\sergi\Proyectos\centro-capacitacion-laboral\img\footer" />
-      <recent name="C:\Users\sergi\Proyectos\centro-capacitacion-laboral\img\slider" />
-      <recent name="C:\Users\sergi\Proyectos\centro-capacitacion-laboral\img\slider-home-footer" />
+      <recent name="C:\Users\sergi\Proyectos\centro-capacitacion-laboral\img\iconos-servicios" />
       <recent name="C:\Users\sergi\Proyectos\centro-capacitacion-laboral\img\partner" />
-      <recent name="C:\Users\sergi\Proyectos\centro-capacitacion-laboral" />
+      <recent name="C:\Users\sergi\Proyectos\centro-capacitacion-laboral\img" />
+      <recent name="C:\Users\sergi\Proyectos\centro-capacitacion-laboral\img\slider" />
+      <recent name="C:\Users\sergi\Proyectos\centro-capacitacion-laboral\img\footer" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\sergi\Proyectos\centro-capacitacion-laboral\img" />
@@ -116,7 +154,16 @@
       <workItem from="1695124751805" duration="494000" />
       <workItem from="1695126342098" duration="6208000" />
       <workItem from="1695466959901" duration="345000" />
-      <workItem from="1695646416250" duration="2128000" />
+      <workItem from="1695646416250" duration="3193000" />
+      <workItem from="1695665933095" duration="4715000" />
+      <workItem from="1695679659429" duration="1310000" />
+      <workItem from="1695727904709" duration="52000" />
+      <workItem from="1696334784588" duration="1960000" />
+      <workItem from="1696352926859" duration="3161000" />
+      <workItem from="1696363121244" duration="6157000" />
+      <workItem from="1696532234799" duration="5818000" />
+      <workItem from="1696947819822" duration="1814000" />
+      <workItem from="1699275579192" duration="1556000" />
     </task>
     <servers />
   </component>

@@ -53,7 +53,7 @@
 <body data-spy="scroll" data-target="#navmenu" data-offset="70">
 <!--[if lt IE 8]>
 <p class="browserupgrade">Estás usando un navegador <strong>obsoleto</strong>. Por favor, <a
-    href="http://browsehappy.com/">actualiza tu navegador</a> para mejorar tu experiencia.</p>
+        href="http://browsehappy.com/">actualiza tu navegador</a> para mejorar tu experiencia.</p>
 <![endif]-->
 
 <div class="site-preloader-wrap">
@@ -68,7 +68,7 @@ require('src/layout/header/header.php');
 <section id="proposito" class="section hero-content-fundacion d-flex align-items-center">
     <div class="container">
         <div class="fondo-letras-header">
-            <h1 style="color: #EBA433; font-size: 50px; font-weight: normal">FORMAMOS EL FUTURO DE LA INDUSTRIA »</h1>
+            <h1 style="color: #EBA433; font-size: 45px; font-weight: normal">FORMAMOS EL FUTURO DE LA INDUSTRIA »</h1>
         </div>
     </div>
     <div class="down-arrow">
@@ -80,7 +80,7 @@ require('src/layout/header/header.php');
 <section id="nuestro-proposito" class="about-section">
     <div class="container-fluid nuestro-proposito">
         <div class="col-12">
-            <h2 style="color: #4D4D4D">LA FUNDACION </h2>
+            <strong><h2 style="color: #4D4D4D">LA FUNDACION </h2></strong>
         </div>
     </div>
 </section><!-- about-section -->
@@ -88,13 +88,16 @@ require('src/layout/header/header.php');
 <div class="rectangulo"></div>
 
 
-
-
 <section id="services" class="service-section padding">
     <div class="container-fluid">
-        <div class="col-12">
-            <h3 class="text-black text-center" style="font-size: 21px">Ubicados estratégicamente en el norte de la provincia de Buenos Aires, nos encontramos en una de las zonas más destacadas de la industria metalmecánica en todo el país. Nos enorgullece ofrecer una educación de excelencia, adaptada a las necesidades de esta importante región.
-            </h3>
+        <div class="row d-flex justify-content-center">
+            <div class="col-8">
+                <h3 class="text-black text-center" style="font-size: 30px">Ubicados estratégicamente en el norte de la
+                    provincia de Buenos Aires, nos encontramos en una de las zonas más destacadas de la industria
+                    metalmecánica en todo el país. Nos enorgullece ofrecer una educación de excelencia, adaptada a las
+                    necesidades de esta importante región.
+                </h3>
+            </div>
         </div>
     </div>
 </section><!-- service-section -->
@@ -102,7 +105,8 @@ require('src/layout/header/header.php');
 <section id="services" class="service-section padding">
     <div class="container-fluid">
         <div class="col-12">
-            <h3 class="text-black text-center" style="font-size: 21px"><< Nuestro propósito es acompañar a descubrir una nueva forma de mejorar procesos de trabajo, a través de la formación y la enseñanza.>></h3>
+            <h3 class="text-black text-center" style="font-size: 21px"><< Nuestro propósito es acompañar a descubrir una
+                nueva forma de mejorar procesos de trabajo, a través de la formación y la enseñanza.>></h3>
         </div>
     </div>
 </section><!-- service-section -->
@@ -112,17 +116,25 @@ require('src/layout/header/header.php');
         <div class="row justify-content-center">
             <div class="col-10">
                 <h3 class="text-black text-center" style="font-size: 21px">
-                    Nuestra misión es clara: promover la seguridad y salud ocupacional de personas y medio ambiente, como punto de partida en la prevención, brindando herramientas a través de la formación y enseñanza, brindando conocimientos para evitar accidentes de trabajo.
-                    Trabajamos para ser líderes en nuestro sector, no sólo a nivel local, sino también como referentes geográficos. Promovemos la formación como eje principal en diferentes trabajos y actividades, impactando positivamente en la sociedad y en el crecimiento de las empresas.
-                    En CCL, Centro de Capacitación y Formación Fray Luis Beltrán, confiamos en que nuestros valores son la base de todo lo que hacemos. El liderazgo impulsa nuestra capacidad para innovar y acompañar las transformaciones en cada industria. El compromiso nos impulsa a ofrecer siempre lo mejor a nuestros clientes, adaptándonos a sus necesidades y superando sus expectativas.
-                    Buscamos crear un impacto positivo en la sociedad, asumiendo la responsabilidad de nuestras acciones y promoviendo la formación, la enseñanza y las prácticas sostenibles. La calidad es un pilar en nuestro enfoque.
+                    Nuestra misión es clara: promover la seguridad y salud ocupacional de personas y medio ambiente,
+                    como punto de partida en la prevención, brindando herramientas a través de la formación y enseñanza,
+                    brindando conocimientos para evitar accidentes de trabajo.
+                    Trabajamos para ser líderes en nuestro sector, no sólo a nivel local, sino también como referentes
+                    geográficos. Promovemos la formación como eje principal en diferentes trabajos y actividades,
+                    impactando positivamente en la sociedad y en el crecimiento de las empresas.
+                    En CCL, Centro de Capacitación y Formación Fray Luis Beltrán, confiamos en que nuestros valores son
+                    la base de todo lo que hacemos. El liderazgo impulsa nuestra capacidad para innovar y acompañar las
+                    transformaciones en cada industria. El compromiso nos impulsa a ofrecer siempre lo mejor a nuestros
+                    clientes, adaptándonos a sus necesidades y superando sus expectativas.
+                    Buscamos crear un impacto positivo en la sociedad, asumiendo la responsabilidad de nuestras acciones
+                    y promoviendo la formación, la enseñanza y las prácticas sostenibles. La calidad es un pilar en
+                    nuestro enfoque.
                 </h3>
             </div>
         </div>
     </div>
 
 </section><!-- service-section -->
-
 
 
 <?php
@@ -155,7 +167,6 @@ require('src/layout/footer/footer.php');
 <script src="js/contact.js"></script>
 <!-- Main JS -->
 <script src="js/main.js"></script>
-
 
 
 <!--Slider-->
@@ -219,12 +230,11 @@ require('src/layout/footer/footer.php');
 
 <script>
 
-    $('i').click(function() {
+    $('i').click(function () {
         $(this).toggleClass('fa-plus-circle').toggleClass('fa-minus-circle');
     });
 
 </script>
-
 
 
 </body>

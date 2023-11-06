@@ -93,6 +93,9 @@ h5,h6{
     font-size: 14px;
     margin: 0 0 10px;
 }
+a {
+    color: #23262e;
+}
 img{
     border: none;
     outline:none;
@@ -948,13 +951,13 @@ ul.nav > li > a.active{
     background-color: white;
     display: block;
     color: #fff;
-    text-align: center;
+    /* text-align: center; */
     padding: 30px 0;
 }
 
 .footer-section p {
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 15px;
     margin: 0;
 }
 
@@ -973,25 +976,84 @@ ul.nav > li > a.active{
 
 /* Estilos Específicos para Clases */
 .qr {
-    margin-top: -200px;
+    margin-top: -150px;
 }
 
 .texto-qr {
     margin-top: -20px;
 }
 
+.text-izquierda a p{
+    color: rgb(44, 43, 43)!important;
+    text-align: left !important;
+}
+
+.text-izquierda {
+    text-align: left !important;
+    margin-left: 50px;
+}
+
+.map-google2{
+    display: none;
+}
+
 /* Media Queries */
-@media screen and (max-width: 600px) {
+
+@media (min-width: 100px) and (max-width: 990px) {
+    .text-izquierda {
+        text-align: left !important;
+        font-size: 18px !important;
+        line-height: 23px;
+        color: white;
+        font-weight: 600;
+        padding-top: 5px;
+    }
+
+    .text-izquierda a {
+        color: rgb(44, 43, 43) !important;
+    }
+
     .qr {
-        margin-top: 3px !important;
+        margin-top: 10px !important;
     }
 
     .texto-qr {
         margin-top: 50px;
     }
 
+    .imagenes-footer {
+        padding-top: 50px;
+        align-content: center;
+    }
+
+    #proposito {
+        padding-top: 130px !important;
+    }
+
+    .navbar {
+        padding: 5px;
+    }
+
+    .map-google{
+        display: none;
+    }
+    .map-google2{
+        display: block;
+    }
 
 }
+
+
+@media (min-width: 100px) and (max-width: 500px) {
+    .fondo-letras-header h1{
+        font-size: 18px !important;
+    }
+
+}
+
+
+
+
 
 
 /* ==========================================================================
@@ -1018,9 +1080,16 @@ ul.nav > li > a.active{
 }
 
 #arrow1{
-    color: #EBA433 !important;
+    color: white !important;
 }
 #arrow2{
+    color: white !important;
+}
+
+#arrow3{
+    color: #EBA433 !important;
+}
+#arrow4{
     color: #EBA433 !important;
 }
 
@@ -1040,3 +1109,30 @@ ul.nav > li > a.active{
 }
 
 
+.float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+.float:hover {
+    text-decoration: none;
+    color: #25d366;
+    background-color:#fff;
+}
+.my-float{
+    margin-top:16px;
+}
+
+.imagenes-card{
+    margin-left: 80px;
+    margin-top: -20px;
+}

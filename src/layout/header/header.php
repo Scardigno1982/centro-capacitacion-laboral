@@ -24,10 +24,7 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item active">
-                                <a data-scroll class="nav-link" href="fundacion.php">LA FUNDACIÓN<span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a data-scroll class="nav-link" href="servicios.php">SERVICIOS</a>
+                                <a data-scroll class="nav-link" href="servicios.php">SERVICIOS <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
                                 <a data-scroll class="nav-link" href="capacitaciones.php">CAPACITACIONES</a>
@@ -42,5 +39,11 @@
             </div>
         </div>
     </nav>
+
+    <!--Boton de Whatsapp-->
+    <a href="https://api.whatsapp.com/send?phone=+5493364274974&text=Contacto%20WEB%20-%20Quiero%20dejar%20un%20mensaje." class="float" target="_blank">
+        <i class="fab fa-whatsapp my-float"></i>
+    </a>
+    <!--Boton de Whatsapp-->
 </header> <!-- Header -->
 

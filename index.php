@@ -67,7 +67,7 @@ require('src/layout/header/header.php');
 <section id="proposito" class="hero-section d-flex align-items-center">
     <div class="container">
         <div class="fondo-letras-header">
-            <h1 style="color: #EBA433; font-size: 50px; font-weight: normal">FORMAMOS EL FUTURO DE LA INDUSTRIA »</h1>
+            <h1 style="color: #EBA433; font-size: 45px; font-weight: normal">FORMAMOS EL FUTURO DE LA INDUSTRIA »</h1>
         </div>
     </div>
     <div class="down-arrow">
@@ -89,30 +89,46 @@ require('src/layout/header/header.php');
 
 <section id="services" class="service-section padding">
     <div class="container-fluid">
-        <div class="col-12">
-            <h3 class="text-black text-center" style="font-size: 21px">Formación, enseñanza y análisis para promover la
-                seguridad<br> de las personas y el medio ambiente</h3>
+        <div class="row d-flex justify-content-center">
+            <div class="col-8">
+                <h3 class="text-black text-center" style="font-size: 30px">FORMACIÓN, ENSEÑANZA Y ANÁLISIS PARA PROMOVER LA SEGURIDAD, SALUD Y EL MEDIO AMBIENTE</h3>
+            </div>
         </div>
+
+
+
+
         <div class="col-12">
             <div class="row">
                 <div class="col-6">
-                    <div class="text-center mt-5">
-                        <img src="img/home/icono-1.png"  width="150">
-                        <div class="mt-3">
-                            <h2 class="text-black text-center">SERVICIOS</h2>
+                    <a href="servicios.php#servicios">
+                    <div class="mt-5">
+                        <div class="text-right  p-4">
+                            <img src="img/home/icono-1.png"  class="img-fluid" >
+                        </div>
+
+
+                        <div class="mt-3 p-4">
+                            <h2 class="text-black text-right">SERVICIOS</h2>
                         </div>
 
 
                     </div>
+                    </a>
                 </div>
-                <div class="col-6">
-                    <div class="text-center mt-5">
-                        <img src="img/home/icono-2.png" width="150">
-                        <div class="mt-3">
-                            <h2 class="text-black text-center">CAPACITACIONES</h2>
+                <div class="col-6 ">
+                    <a href="capacitaciones.php#capacitaciones">
+                    <div class=" mt-5">
+                        <div class="text-left p-4" style="margin-left: 20px">
+                            <img src="img/home/icono-2.png" class="img-fluid">
+                        </div>
+
+                        <div class="mt-3 p-2 pt-4">
+                            <h2 class="text-black text-left">CAPACITACIONES</h2>
                         </div>
 
                     </div>
+                    </a>
                 </div>
             </div>
 
@@ -150,7 +166,7 @@ require('src/layout/header/header.php');
 <div class="naranja">
 <div class="container mt-5 mb-5" id="fabrica" >
     <div class="col-12">
-        <h1 class="text-center text-black">Conocé nuestro Instituto</h1>
+        <h1 class="text-center text-black">Conocé nuestro Centro de Capacitación</h1>
     </div>
     <div class="slider" id="slider">
         <div>
@@ -365,8 +381,8 @@ require('src/layout/footer/footer.php');
 <script type="text/javascript">
     $('.slider').slick({
         dots: true,
-        prevArrow: '<span id="arrow1" class="fas fa-chevron-left"></span>',
-        nextArrow: '<span id="arrow2" class="fas fa-chevron-right"></span>',
+        prevArrow: '<span id="arrow3" class="fas fa-chevron-left"></span>',
+        nextArrow: '<span id="arrow4" class="fas fa-chevron-right"></span>',
         infinite: true,
         speed: 300,
         slidesToShow: 2,
