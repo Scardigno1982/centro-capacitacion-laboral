@@ -20,17 +20,17 @@ $celular = $_POST['celular'];
 try {
     //Server settings
     $mail->isSMTP();
-    $mail->Host       = 'c1312335.ferozo.com';
+    $mail->Host       = '#';
     $mail->SMTPAuth   = true;
-    $mail->Username   = 'centro-capatitaciones@sitio-testeo.com.ar';
-    $mail->Password   = 'v*mk@Ur2hG';
+    $mail->Username   = '#';
+    $mail->Password   = '#';
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
     $mail->Port       = 465;
 
     //Recipients
-    $mail->setFrom('centro-capatitaciones@sitio-testeo.com.ar', 'WEB Centro de Capacitacion Laboral');
-    $mail->addAddress('sergioscardigno82@gmail.com', 'WEB Centro de Capacitacion Laboral');
-    $mail->addAddress('usinaestrategiasdigitales@gmail.com', 'WEB Centro de Capacitacion Laboral');
+    $mail->setFrom('inscripciones@cclweb.com.ar', 'WEB Centro de Capacitacion Laboral');
+    $mail->addAddress('#', 'WEB Centro de Capacitacion Laboral');
+    $mail->addAddress('#', 'WEB Centro de Capacitacion Laboral');
     $mail->addAddress('inscripciones@cclweb.com.ar', 'WEB Centro de Capacitacion Laboral');
 
     //Content
